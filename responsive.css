@@ -1,0 +1,43 @@
+table, tr, th, td {
+    padding:1px;
+    font-size:60px;
+}
+table, tr, td, th{
+    position: top;
+    top: 35%;
+    left: 15%;
+    background: linear-gradient(90deg,  red, #000);
+    background-size: 400%;
+    font-size: 50px;
+    font-family: Calibri Light;
+    letter-spacing: 0px;
+    font-weight: 600;
+    word-spacing: 0px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:  text;
+    animation: animate 10s linear infinite;
+  }
+    @keyframes animate{
+        0%{
+            background-position: 0%;
+        }
+        100%{
+            background-position: 400%; 
+        }
+    }
+
+  .main {
+    font-size:12px;
+    margin:5px;
+    padding:5px;
+  }
+    
+  .table img {
+    height:12px;
+    width:12px;
+  }
+  
+  .table span {
+    padding:5px;
+    margin:5px;
+  }
